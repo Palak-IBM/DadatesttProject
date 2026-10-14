@@ -65,6 +65,10 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1222
+- serviceName: project.dadatestt.pgp.connections:PGP_RSA_KEY
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
 - serviceName: project.dadatestt.sftp.connections:sftpacc
   packages:
   - name: DadatesttProject
