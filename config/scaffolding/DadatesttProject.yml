@@ -9,6 +9,10 @@ services:
   packages:
   - name: DadatesttProject
     version: "1.0"
+- serviceName: project.dadatestt.http.connections:httpacc
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
 - serviceName: project.dadatestt.integrations:ftpcnntr
   packages:
   - name: DadatesttProject
