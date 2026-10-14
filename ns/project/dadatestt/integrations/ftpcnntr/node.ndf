@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Palak2@ibm.com</value>
-    <value name="createdDate">2026-10-14T07:34:46.245863035Z</value>
-    <value name="lastModifiedDate">2026-10-14T07:34:46.245863035Z</value>
+    <value name="lastModifiedBy">Palak2@ibm.com</value>
+    <value name="lastModifiedDate">2026-10-14T07:35:10.761157640Z</value>
     <value name="displayName">ftpcnntr</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -76,7 +75,7 @@
           <value name="connectionType">ftp</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">ftpacc</value>
+        <value name="connectionNSName">project.dadatestt.ftp.connections:ftpacc</value>
         <value name="connectionType">ftp</value>
         <value name="type">ftp</value>
         <value name="version">1</value>
@@ -108,6 +107,7 @@
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <Boolean name="accountReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
     <value name="modifiedBy">Palak2@ibm.com</value>
