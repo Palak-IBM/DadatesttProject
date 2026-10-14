@@ -37,6 +37,14 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1222
+- serviceName: project.dadatestt.integrations:sftpcnntr
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+- serviceName: pub.client.sftp:ls
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1222
 - serviceName: project.dadatestt.integrations:summationFlowService
   packages:
   - name: DadatesttProject
