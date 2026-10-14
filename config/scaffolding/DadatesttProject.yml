@@ -5,11 +5,13 @@ packages:
 - name: DadatesttProject
   gitBranch: master
 - name: TPP11
+  version: "1.0"
   gitServerName: SIQAGitHubTest_shared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: TPP12
+  version: "1.0"
   gitServerName: palak
   gitUrl: https://github.com/Lia-Dsouza-IBM
   gitUsername: Palak-IBM
@@ -19,13 +21,25 @@ services:
   packages:
   - name: DadatesttProject
     version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 - serviceName: project.dadatestt.http.connections:httpacc
   packages:
   - name: DadatesttProject
     version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 - serviceName: project.dadatestt.integrations:ftpcnntr
   packages:
   - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
     version: "1.0"
 - serviceName: pub.client.ftp:ls
   packages:
@@ -35,6 +49,10 @@ services:
   packages:
   - name: DadatesttProject
     version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 - serviceName: pub.client:http
   packages:
   - name: WmPublic
@@ -43,6 +61,10 @@ services:
   packages:
   - name: DadatesttProject
     version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 - serviceName: pub.math:absoluteValue
   packages:
   - name: WmPublic
@@ -50,6 +72,10 @@ services:
 - serviceName: project.dadatestt.integrations:pgpCombom
   packages:
   - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
     version: "1.0"
 - serviceName: pub.security:encrypt
   packages:
@@ -63,6 +89,10 @@ services:
   packages:
   - name: DadatesttProject
     version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 - serviceName: pub.client.sftp:ls
   packages:
   - name: WmPublic
@@ -70,6 +100,10 @@ services:
 - serviceName: project.dadatestt.integrations:summationFlowService
   packages:
   - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
     version: "1.0"
 - serviceName: pub.math:addInts
   packages:
@@ -79,29 +113,49 @@ services:
   packages:
   - name: DadatesttProject
     version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 - serviceName: project.dadatestt.sftp.connections:sftpacc
   packages:
   - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: project.dadatestt.smtp.connections:smtpacc
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
     version: "1.0"
 - serviceName: project.dadatestt.streaming.connections:EmbeddedMessaging
   packages:
   - name: DadatesttProject
     version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
-  jdbc.SAP TxStore Pool.spyparms: SpyAttributes=(log=(file)logs/spy/SAP_TxStore_Pool.log;logTName=yes;timestamp=yes)
-  jdbc.SAP TxStore Pool.snoopenabled: "false"
   jdbcfunc.SAPTxStore.failFastMode: false
-  jdbc.SAP TxStore Pool.snoopparms: ddtdbg.ProtocolTraceEnable=true;ddtdbg.ProtocolTraceMaxline=16;ddtdbg.ProtocolTraceLocation=logs/snoop/SAP_TxStore_Pool.log;ddtdbg.ProtocolTraceShowTime=true
   jdbc.SAP TxStore Pool.poolThreshold: "0"
   jdbc.SAP TxStore Pool.dbURL: jdbc:mysql://localhost:3306/SAPTRANSACTIONSTORE?useSSL=false&characterEncoding=utf-8&autoReconnect=true&maxReconnects=5&sessionVariables=wait_timeout=2147483
-  jdbc.SAP TxStore Pool.expireTime: "60000"
   jdbc.SAP TxStore Pool.spyenabled: "false"
-  jdbc.SAP TxStore Pool.minConns: "5"
-  jdbc.SAP TxStore Pool.userid: root
   jdbc.SAP TxStore Pool.useSSL: "false"
   jdbc.SAP TxStore Pool.waitingThread: "10"
-  jdbc.SAP TxStore Pool.driverAlias: MySQL CC Driver
   jdbc.SAP TxStore Pool.description: Connection Pool for the SAP Transaction Store
   jdbc.SAP TxStore Pool.password: "{AES}nrGf3u7Wt20hFBGh5ZeEuQ=="
+  jdbc.SAP TxStore Pool.spyparms: SpyAttributes=(log=(file)logs/spy/SAP_TxStore_Pool.log;logTName=yes;timestamp=yes)
+  jdbc.SAP TxStore Pool.snoopenabled: "false"
+  jdbc.SAP TxStore Pool.snoopparms: ddtdbg.ProtocolTraceEnable=true;ddtdbg.ProtocolTraceMaxline=16;ddtdbg.ProtocolTraceLocation=logs/snoop/SAP_TxStore_Pool.log;ddtdbg.ProtocolTraceShowTime=true
+  jdbc.SAP TxStore Pool.expireTime: "60000"
+  jdbc.SAP TxStore Pool.minConns: "5"
+  jdbc.SAP TxStore Pool.userid: root
+  jdbc.SAP TxStore Pool.driverAlias: MySQL CC Driver
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
