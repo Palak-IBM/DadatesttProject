@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">soap</value>
+  <value name="node_nsName">project.dadatestt.soap.connections:soapacc</value>
+  <value name="node_pkg">DadatesttProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">DadatesttProject.project.dadatestt.soap.connections:soapacc</value>
+  <value name="connectionName">soapacc</value>
+  <value name="description"></value>
+  <value name="connectorNSName">project.dadatestt.soap.connectors:testsoap</value>
+  <value name="port">CalculatorSoap</value>
+  <value name="url">http://www.dneonline.com/calculator.asmx</value>
+  <value name="timeout">30000</value>
+  <value name="transportType">Basic</value>
+  <value name="transportUser"></value>
+  <value name="transportPass"></value>
+  <value name="transportServerCertsKeystoreAlias"></value>
+  <value name="transportServerCertsKeyAlias"></value>
+  <value name="messageUser"></value>
+  <value name="messagePass"></value>
+  <value name="messageServerCertsKeystoreAlias"></value>
+  <value name="messageServerCertsKeyAlias"></value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Palak2@ibm.com</value>
+    <value name="modifiedBy">Palak2@ibm.com</value>
+    <value name="createdDate">2026-10-14T07:50:30.896862645Z</value>
+    <value name="lastModifiedDate">2026-10-14T07:50:30.896862645Z</value>
+  </record>
+</Values>
