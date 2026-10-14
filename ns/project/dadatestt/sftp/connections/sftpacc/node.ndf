@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">sftpAccount</value>
+  <value name="node_nsName">project.dadatestt.sftp.connections:sftpacc</value>
+  <value name="node_pkg">DadatesttProject</value>
+  <value name="is_public">false</value>
+  <record name="accountDetails" javaclass="com.wm.util.Values">
+    <null name="agentGroup"/>
+    <value name="agentId">a79c2ebd821445cfa6eaf237fbd1522e</value>
+    <value name="authenticationType">password</value>
+    <value name="compression">none</value>
+    <value name="compressionLevel">6</value>
+    <value name="connectionName">sftpacc</value>
+    <value name="connectionTimeout">0</value>
+    <value name="connectionType">sagcloud</value>
+    <value name="connectorID">sftpconnector</value>
+    <value name="connectorType">sftp</value>
+    <value name="hostName">demo.wftpserver.com</value>
+    <null name="instanceId"/>
+    <value name="maxDHKeySize">8192</value>
+    <value name="maximumRetries">6</value>
+    <value name="minDHKeySize">1024</value>
+    <value name="packageName">DadatesttProject</value>
+    <value name="port">2222</value>
+    <value name="preferredKeyExchangeAlgorithm">ecdh-sha2-nistp256</value>
+    <value name="projectName">dadatestt</value>
+    <value name="providerName">TechnologyConnector</value>
+    <value name="sessionTimeout">30</value>
+    <value name="strictHostKeyChecking">no</value>
+    <null name="updateAsset"/>
+    <value name="userName">demo</value>
+  </record>
+  <value name="assetId">DadatesttProject.project.dadatestt.sftp.connections:sftpacc</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Palak2@ibm.com</value>
+    <value name="modifiedBy">Palak2@ibm.com</value>
+    <value name="createdDate">2026-10-14T07:36:01.503894049Z</value>
+    <value name="lastModifiedDate">2026-10-14T07:36:01.503894049Z</value>
+  </record>
+</Values>
