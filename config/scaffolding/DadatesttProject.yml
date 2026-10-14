@@ -17,6 +17,14 @@ packages:
   gitUsername: Palak-IBM
   gitBranch: main
 services:
+- serviceName: project.dadatestt.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:csacc
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 - serviceName: project.dadatestt.ftp.connections:ftpacc
   packages:
   - name: DadatesttProject
