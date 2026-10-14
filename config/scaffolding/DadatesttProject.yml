@@ -5,6 +5,14 @@ packages:
 - name: DadatesttProject
   gitBranch: master
 services:
+- serviceName: project.dadatestt.integrations:mathdaf11
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+- serviceName: pub.math:absoluteValue
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1222
 - serviceName: project.dadatestt.integrations:pgpCombom
   packages:
   - name: DadatesttProject
