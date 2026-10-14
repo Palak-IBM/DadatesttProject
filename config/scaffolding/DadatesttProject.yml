@@ -9,6 +9,14 @@ services:
   packages:
   - name: DadatesttProject
     version: "1.0"
+- serviceName: project.dadatestt.integrations:ftpcnntr
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+- serviceName: pub.client.ftp:ls
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1222
 - serviceName: project.dadatestt.integrations:mathdaf11
   packages:
   - name: DadatesttProject
