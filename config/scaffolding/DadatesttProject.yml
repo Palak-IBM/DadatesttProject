@@ -57,6 +57,18 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1222
+- serviceName: project.dadatestt.integrations:jmscnntr
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: pub.jms:send
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1222
 - serviceName: project.dadatestt.integrations:mathdaf11
   packages:
   - name: DadatesttProject
