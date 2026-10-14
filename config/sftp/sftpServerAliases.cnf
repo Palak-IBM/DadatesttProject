@@ -17,5 +17,6 @@
         <value name="preferredCiphersC2S">aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,arcfour,arcfour128,arcfour256</value>
       </record>
     </array>
+    <value name="isMigratedToV2">yes</value>
   </record>
 </IDataXMLCoder>
