@@ -9,6 +9,11 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: TPP12
+  gitServerName: palak
+  gitUrl: https://github.com/Lia-Dsouza-IBM
+  gitUsername: Palak-IBM
+  gitBranch: main
 services:
 - serviceName: project.dadatestt.ftp.connections:ftpacc
   packages:
