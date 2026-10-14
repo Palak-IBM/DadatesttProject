@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Palak2@ibm.com</value>
-    <value name="createdDate">2026-10-14T07:36:59.708631526Z</value>
-    <value name="lastModifiedDate">2026-10-14T07:36:59.708631526Z</value>
+    <value name="lastModifiedBy">Palak2@ibm.com</value>
+    <value name="lastModifiedDate">2026-10-14T07:37:22.723775918Z</value>
     <value name="displayName">sftpcnntr</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -76,7 +75,7 @@
           <value name="connectionType">sftp</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">sftpacc</value>
+        <value name="connectionNSName">project.dadatestt.sftp.connections:sftpacc</value>
         <value name="connectionType">sftp</value>
         <value name="type">sftp</value>
         <value name="version">1</value>
@@ -108,6 +107,7 @@
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <Boolean name="accountReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
     <value name="modifiedBy">Palak2@ibm.com</value>
