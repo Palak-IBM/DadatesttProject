@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">smtp</value>
+  <value name="node_nsName">project.dadatestt.smtp.connections:smtpacc</value>
+  <value name="node_pkg">DadatesttProject</value>
+  <value name="is_public">false</value>
+  <value name="assetId">DadatesttProject.project.dadatestt.smtp.connections:smtpacc</value>
+  <value name="connectionName">smtpacc</value>
+  <value name="description"></value>
+  <value name="mailhost">%smtphost%</value>
+  <value name="mailhostPort">%smtpport%</value>
+  <value name="from">%smtpfrom%</value>
+  <value name="authType">basic</value>
+  <value name="user">%smtpuser%</value>
+  <value name="pass">project.dadatestt.smtp.connections.smtpacc.pass</value>
+  <value name="token"></value>
+  <value name="transportLayerSecurity">%smtptransport%</value>
+  <value name="truststoreAlias"></value>
+  <value name="packageName">DadatesttProject</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Palak2@ibm.com</value>
+    <value name="modifiedBy">Palak2@ibm.com</value>
+    <value name="createdDate">2026-10-14T07:45:18.250430927Z</value>
+    <value name="lastModifiedDate">2026-10-14T07:45:18.250430927Z</value>
+  </record>
+</Values>
