@@ -39,6 +39,12 @@
         <value name="isSecure">true</value>
         <value name="isLinkedToVault">false</value>
       </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">smtpto</value>
+        <value name="value">testuserwebm@gmail.com</value>
+        <value name="isSecure">false</value>
+        <value name="isLinkedToVault">false</value>
+      </record>
     </array>
   </record>
 </IDataXMLCoder>
