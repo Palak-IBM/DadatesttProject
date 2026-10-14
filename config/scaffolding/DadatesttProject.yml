@@ -121,6 +121,26 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1222
+- serviceName: project.dadatestt.integrations:soapcnntr
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: project.dadatestt.soap.connectors.testsoap_.connectors:CalculatorSoap_Add
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: pub.client:soapClient
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1222
 - serviceName: project.dadatestt.integrations:summationFlowService
   packages:
   - name: DadatesttProject
@@ -173,18 +193,6 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
-- serviceName: project.dadatestt.soap.connectors.testsoap_.connectors:CalculatorSoap_Add
-  packages:
-  - name: DadatesttProject
-    version: "1.0"
-  - name: TPP12
-    version: "1.0"
-  - name: TPP11
-    version: "1.0"
-- serviceName: pub.client:soapClient
-  packages:
-  - name: WmPublic
-    version: 12.1.0.0.1222
 - serviceName: project.dadatestt.soap.connectors.testsoap_.connectors:CalculatorSoap_Divide
   packages:
   - name: DadatesttProject
