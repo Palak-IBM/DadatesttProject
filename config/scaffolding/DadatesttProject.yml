@@ -165,6 +165,90 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+- serviceName: project.dadatestt.soap.connections:soapacc
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: project.dadatestt.soap.connectors.testsoap_.connectors:CalculatorSoap_Add
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: pub.client:soapClient
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1222
+- serviceName: project.dadatestt.soap.connectors.testsoap_.connectors:CalculatorSoap_Divide
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: project.dadatestt.soap.connectors.testsoap_.connectors:CalculatorSoap_Multiply
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: project.dadatestt.soap.connectors.testsoap_.connectors:CalculatorSoap_Subtract
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: project.dadatestt.soap.connectors.testsoap_.responseServices:CalculatorSoap_Add_Response
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: project.dadatestt.soap.connectors.testsoap_.responseServices:CalculatorSoap_Divide_Response
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: project.dadatestt.soap.connectors.testsoap_.responseServices:CalculatorSoap_Multiply_Response
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: project.dadatestt.soap.connectors.testsoap_.responseServices:CalculatorSoap_Subtract_Response
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
+- serviceName: project.dadatestt.soap.connectors.testsoap_.responseServices:genericFault_Response
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 - serviceName: project.dadatestt.streaming.connections:EmbeddedMessaging
   packages:
   - name: DadatesttProject
