@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">connectorAccount</value>
+  <value name="node_subtype">ftpAccount</value>
+  <value name="node_nsName">project.dadatestt.ftp.connections:ftpacc</value>
+  <value name="node_pkg">DadatesttProject</value>
+  <value name="is_public">false</value>
+  <record name="accountDetails" javaclass="com.wm.util.Values">
+    <null name="agentGroup"/>
+    <value name="agentId">a79c2ebd821445cfa6eaf237fbd1522e</value>
+    <value name="connectionName">ftpacc</value>
+    <value name="connectionType">sagcloud</value>
+    <value name="connectorID">ftpconnector</value>
+    <value name="connectorType">ftp</value>
+    <value name="description"></value>
+    <null name="instanceId"/>
+    <value name="keyAlias"></value>
+    <value name="keystoreAlias"></value>
+    <value name="password">*****</value>
+    <value name="projectName">dadatestt</value>
+    <value name="providerName">TechnologyConnector</value>
+    <value name="serverhost">demo.wftpserver.com</value>
+    <value name="serverport">21</value>
+    <value name="timeout">60</value>
+    <value name="truststoreAlias"></value>
+    <null name="updateAsset"/>
+    <value name="username">demo</value>
+    <value name="passwordhandle">wm.is.admin.project.dadatestt.ftp.connections:ftpacc</value>
+  </record>
+  <value name="assetId">DadatesttProject.project.dadatestt.ftp.connections:ftpacc</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Palak2@ibm.com</value>
+    <value name="modifiedBy">Palak2@ibm.com</value>
+    <value name="createdDate">2026-10-14T07:34:33.860228877Z</value>
+    <value name="lastModifiedDate">2026-10-14T07:34:33.860228877Z</value>
+  </record>
+</Values>
