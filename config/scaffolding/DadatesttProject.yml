@@ -5,6 +5,10 @@ packages:
 - name: DadatesttProject
   gitBranch: master
 services:
+- serviceName: project.dadatestt.ftp.connections:ftpacc
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
 - serviceName: project.dadatestt.integrations:mathdaf11
   packages:
   - name: DadatesttProject
