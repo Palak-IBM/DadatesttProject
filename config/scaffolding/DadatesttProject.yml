@@ -16,6 +16,9 @@ packages:
   gitUrl: https://github.com/Lia-Dsouza-IBM
   gitUsername: Palak-IBM
   gitBranch: main
+- name: WmSalesforceProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
 services:
 - serviceName: project.dadatestt.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:csacc
   packages:
@@ -25,6 +28,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.ftp.connections:ftpacc
   packages:
   - name: DadatesttProject
@@ -33,6 +38,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.http.connections:httpacc
   packages:
   - name: DadatesttProject
@@ -41,6 +48,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.integrations:ftpcnntr
   packages:
   - name: DadatesttProject
@@ -49,6 +58,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: pub.client.ftp:ls
   packages:
   - name: WmPublic
@@ -61,6 +72,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: pub.client:http
   packages:
   - name: WmPublic
@@ -73,6 +86,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: pub.jms:send
   packages:
   - name: WmPublic
@@ -85,6 +100,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: pub.math:absoluteValue
   packages:
   - name: WmPublic
@@ -97,6 +114,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: pub.security:encrypt
   packages:
   - name: WmPublic
@@ -113,6 +132,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: pub.client.sftp:ls
   packages:
   - name: WmPublic
@@ -125,6 +146,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: pub.client:smtp
   packages:
   - name: WmPublic
@@ -137,6 +160,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.soap.connectors.testsoap_.connectors:CalculatorSoap_Add
   packages:
   - name: DadatesttProject
@@ -145,6 +170,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: pub.client:soapClient
   packages:
   - name: WmPublic
@@ -157,6 +184,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: pub.math:addInts
   packages:
   - name: WmPublic
@@ -169,6 +198,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.pgp.connections:PGP_RSA_KEY
   packages:
   - name: DadatesttProject
@@ -177,6 +208,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.sftp.connections:sftpacc
   packages:
   - name: DadatesttProject
@@ -185,6 +218,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.smtp.connections:smtpacc
   packages:
   - name: DadatesttProject
@@ -193,6 +228,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.soap.connections:soapacc
   packages:
   - name: DadatesttProject
@@ -201,6 +238,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.soap.connectors.testsoap_.connectors:CalculatorSoap_Divide
   packages:
   - name: DadatesttProject
@@ -209,6 +248,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.soap.connectors.testsoap_.connectors:CalculatorSoap_Multiply
   packages:
   - name: DadatesttProject
@@ -217,6 +258,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.soap.connectors.testsoap_.connectors:CalculatorSoap_Subtract
   packages:
   - name: DadatesttProject
@@ -225,6 +268,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.soap.connectors.testsoap_.responseServices:CalculatorSoap_Add_Response
   packages:
   - name: DadatesttProject
@@ -233,6 +278,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.soap.connectors.testsoap_.responseServices:CalculatorSoap_Divide_Response
   packages:
   - name: DadatesttProject
@@ -241,6 +288,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.soap.connectors.testsoap_.responseServices:CalculatorSoap_Multiply_Response
   packages:
   - name: DadatesttProject
@@ -249,6 +298,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.soap.connectors.testsoap_.responseServices:CalculatorSoap_Subtract_Response
   packages:
   - name: DadatesttProject
@@ -257,6 +308,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.soap.connectors.testsoap_.responseServices:genericFault_Response
   packages:
   - name: DadatesttProject
@@ -265,6 +318,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.dadatestt.streaming.connections:EmbeddedMessaging
   packages:
   - name: DadatesttProject
@@ -273,6 +328,8 @@ services:
     version: "1.0"
   - name: TPP11
     version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
