@@ -121,6 +121,14 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1222
+- serviceName: project.dadatestt.jms.connections:jmsacc
+  packages:
+  - name: DadatesttProject
+    version: "1.0"
+  - name: TPP12
+    version: "1.0"
+  - name: TPP11
+    version: "1.0"
 - serviceName: project.dadatestt.pgp.connections:PGP_RSA_KEY
   packages:
   - name: DadatesttProject
