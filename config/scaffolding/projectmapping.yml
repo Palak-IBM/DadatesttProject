@@ -1,7 +1,7 @@
 version: "1.0"
 projectName: DadatesttProject
 runtimes:
-- runtimeAlias: Cloud Designtime
+- runtimeAlias: test_origin
   assets:
   - name: Untitled Workflow
     type: workflow
