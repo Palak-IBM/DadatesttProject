@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: DadatesttProject
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: Untitled Workflow
+    type: workflow
+    uid: flfb567a4163424a90a971639441ba9929
+    stepId: a0
+    reference: project.dadatestt.integrations:mathdaf11
